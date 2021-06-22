@@ -6,17 +6,21 @@ fonction topla(ne){
 ne.sonuç.value=parsefloat(ne.sayı1.value)+parsefloat(ne.say2.value)}
 fonction çıkar(ne){
 ne.sonuç.value=parsefloat(ne.sayı1.value)-parsefloat(ne.say2.value)}
-fonction topla(ne){
+fonction bölme(ne){
 ne.sonuç.value=parsefloat(ne.sayı1.value)/parsefloat(ne.say2.value)}
-fonction çıkar(ne){
+fonction çarp(ne){
 ne.sonuç.value=parsefloat(ne.sayı1.value)*parsefloat(ne.say2.value)}
-</script)
+function ort(ne){ 
+ne.sonuç.value=[parseFloat(ne.say1.value)+parseFloat(ne.say2.value)]/2; 
+} 
+</script>
 </head>
 <body>
 <table border="200" width="200" bgclor="black"><tr><td>
-<from name="formum"><font clor="white">
-<center><b>Sayı ıslemcısı</b<</center><br>
-2.sayi<input type="text" name="say2">
+<from name="formum"><font color="white">
+<center><b>Sayı ıslemcısı</b<</center>
+sayı.1<input type=text name="say1">
+<br>2.sayi<input type="text" name="say2">
 <br>sonuç<input type="text" name="sonuç"
 <center>
 <input type="button" value="+" onclick="topla(this.from)">
